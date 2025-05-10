@@ -1,0 +1,27 @@
+.recipe-divider {
+  border-top: 1px solid var(--vp-c-accent) !important;
+}
+
+.table-text-center {
+  display: block;
+  text-align: center;
+}
+
+.spaced-flex-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.vp-hero-image {
+  padding-bottom: 5rem;
+  object-fit: contain;
+}
+
+#main-title {
+  color: var(--vp-c-bg);
+}
+.git-info {
+  display: none;
+}
