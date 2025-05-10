@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" viewBox="0 0 64 64">
+    <defs>
+        <linearGradient id="gr-c-large"  x1="0" x2="0" y1="0" y2="1">
+            <stop style="stop-color: #3dd58b;" offset="0%"/>
+            <stop style="stop-color: #349469;" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <defs>
+        <linearGradient id="gr-c-top"  x1="0" x2="0" y1="0" y2="1">
+            <stop style="stop-color: #3dd58b;" offset="0%"/>
+            <stop style="stop-color: #3ccb86;" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <defs>
+        <linearGradient id="gr-c-bottom"  x1="0" x2="0" y1="0" y2="1">
+            <stop style="stop-color: #359f6f;" offset="0%"/>
+            <stop style="stop-color: #349469;" offset="100%"/>
+        </linearGradient>
+    </defs>
+
+    <defs>
+        <linearGradient id="gr-s-top"  x1="0" x2="0" y1="0" y2="1">
+            <stop style="stop-color: #3dd58b;" offset="0%"/>
+            <stop style="stop-color: #3ccb86;" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <defs>
+        <linearGradient id="gr-s-front"  x1="0" x2="0" y1="0" y2="1">
+            <stop style="stop-color: #3bc884;" offset="0%"/>
+            <stop style="stop-color: #38b078;" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <defs>
+        <linearGradient id="gr-s-back"  x1="0" x2="0" y1="0" y2="1">
+            <stop style="stop-color: #39b97d;" offset="0%"/>
+            <stop style="stop-color: #36a270;" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <defs>
+        <linearGradient id="gr-s-bottom"  x1="0" x2="0" y1="0" y2="1">
+            <stop style="stop-color: #359f6f;" offset="0%"/>
+            <stop style="stop-color: #349469;" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <defs>
+        <linearGradient id="gr-s-mid"  x1="0" x2="0" y1="0" y2="1">
+            <stop style="stop-color: #39b97d;" offset="0%"/>
+            <stop style="stop-color: #38b178;" offset="100%"/>
+        </linearGradient>
+    </defs>
+
+    <rect stroke-width="0" fill="url(#gr-c-large)" height="38" width="10" x="2" y="13"/>
+    <rect stroke-width="0" fill="url(#gr-c-top)" height="8" width="16" x="12" y="13"/>
+    <rect stroke-width="0" fill="url(#gr-c-bottom)" height="8" width="16" x="12" y="43"/>
+
+    <rect stroke-width="0" fill="black" height="2" width="30" x="0" y="11"/>
+    <rect stroke-width="0" fill="black" height="8" width="2" x="28" y="13"/>
+    <rect stroke-width="0" fill="black" height="2" width="18" x="12" y="21"/>
+
+    <rect stroke-width="0" fill="black" height="38" width="2" x="0" y="13"/>
+    <rect stroke-width="0" fill="black" height="18" width="2" x="12" y="23"/>
+
+    <rect stroke-width="0" fill="black" height="2" width="18" x="12" y="41"/>
+    <rect stroke-width="0" fill="black" height="8" width="2" x="28" y="43"/>
+    <rect stroke-width="0" fill="black" height="2" width="30" x="0" y="51"/>
+
+    <rect stroke-width="0" fill="url(#gr-s-top)" height="8" width="27" x="35" y="13"/>
+    <rect stroke-width="0" fill="url(#gr-s-front)" height="14" width="11" x="35" y="21"/>
+    <rect stroke-width="0" fill="url(#gr-s-mid)" height="6" width="5" x="46" y="29"/>
+    <rect stroke-width="0" fill="url(#gr-s-back)" height="14" width="11" x="51" y="29"/>
+    <rect stroke-width="0" fill="url(#gr-s-bottom)" height="8" width="27" x="35" y="43"/>
+
+    <rect stroke-width="0" fill="black" height="2" width="31" x="33" y="11"/>
+    <rect stroke-width="0" fill="black" height="22" width="2" x="33" y="13"/>
+    <rect stroke-width="0" fill="black" height="8" width="2" x="62" y="13"/>
+    <rect stroke-width="0" fill="black" height="2" width="18" x="46" y="21"/>
+    <rect stroke-width="0" fill="black" height="2" width="18" x="46" y="27"/>
+    <rect stroke-width="0" fill="black" height="4" width="2" x="46" y="23"/>
+
+    <rect stroke-width="0" fill="black" height="4" width="2" x="49" y="37"/>
+    <rect stroke-width="0" fill="black" height="2" width="18" x="33" y="35"/>
+    <rect stroke-width="0" fill="black" height="2" width="18" x="33" y="41"/>
+    <rect stroke-width="0" fill="black" height="8" width="2" x="33" y="43"/>
+    <rect stroke-width="0" fill="black" height="22" width="2" x="62" y="29"/>
+    <rect stroke-width="0" fill="black" height="2" width="31" x="33" y="51"/>
+
+    <rect stroke-width="0" fill="#007b00" height="1" width="9" x="3" y="27"/>
+    <rect stroke-width="0" fill="#006100" height="1" width="2" x="2" y="34"/>
+    <rect stroke-width="0" fill="#002a00" height="1" width="3" x="10" y="50"/>
+    <rect stroke-width="0" fill="#003500" height="6" width="1" x="24" y="45"/>
+
+    <rect stroke-width="0" fill="#1dad47" height="1" width="8" x="35" y="21"/>
+    <rect stroke-width="0" fill="#006c01" height="4" width="1" x="56" y="29"/>
+    <rect stroke-width="0" fill="#003900" height="7" width="1" x="42" y="44"/>
+    <rect stroke-width="0" fill="#002a01" height="2" width="1" x="55" y="49"/>
+</svg>
