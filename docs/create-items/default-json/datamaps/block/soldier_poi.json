@@ -1,0 +1,30 @@
+{
+  "values": {
+    "minecraft:end_rod": {
+      "effect": [
+        {
+          "type": "csr:conversion",
+          "conversion": {
+            "type": "csr:clay_wraith",
+            "additional_data": {
+              "LifeTicks": 120,
+              "WraithAttacks": [
+                {
+                  "type": "csr:lightning_attack",
+                  "attack_properties": {
+                    "attack_type": "melee",
+                    "damage": 2.0
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "predicate": {
+        "type": "csr:always_true",
+        "test": {}
+      }
+    }
+  }
+}

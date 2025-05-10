@@ -1,0 +1,47 @@
+{
+  "values": {
+    "csr:clay_horse": {
+      "properties": {
+        "attack_range": 0.2,
+        "heavy": 0.2
+      }
+    },
+    "csr:clay_pegasus": {
+      "properties": {
+        "attack_range": 0.25,
+        "heavy": 0.25
+      }
+    },
+    "minecraft:endermite": {
+      "properties": {
+        "teleport_to_owner": {},
+        "teleportation": {}
+      }
+    },
+    "minecraft:rabbit": {
+      "properties": {
+        "attack_range": 0.3
+      }
+    },
+    "minecraft:slime": {
+      "properties": {
+        "damage": 0.3,
+        "special_attack": [
+          {
+            "type": "csr:critical_hit",
+            "attack_properties": {
+              "attack_type": "ranged",
+              "chance": 0.6,
+              "damage": 1.0
+            }
+          }
+        ]
+      }
+    },
+    "minecraft:turtle": {
+      "properties": {
+        "breath_hold": "infinite"
+      }
+    }
+  }
+}

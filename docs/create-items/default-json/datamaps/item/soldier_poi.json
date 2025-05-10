@@ -1,0 +1,169 @@
+{
+  "values": {
+    "#c:dyes": {
+      "effect": [
+        {
+          "type": "csr:dye_soldier",
+          "dye": {
+            "color": "from_item",
+            "overwrite": true
+          }
+        }
+      ],
+      "predicate": {
+        "type": "csr:logic",
+        "test": {
+          "operation": "not",
+          "predicate": {
+            "type": "csr:has_custom_color",
+            "test": {}
+          }
+        }
+      }
+    },
+    "minecraft:book": {
+      "break_chance": 0.05,
+      "effect": [
+        {
+          "type": "csr:set_item",
+          "set_item": {
+            "item": {
+              "count": 1,
+              "id": "minecraft:paper"
+            }
+          }
+        }
+      ],
+      "predicate": {
+        "type": "csr:has_item",
+        "test": {
+          "item": "minecraft:paper",
+          "slot": "suitable"
+        }
+      }
+    },
+    "minecraft:flint": {
+      "break_chance": 0.15,
+      "effect": [
+        {
+          "type": "csr:set_item",
+          "set_item": {
+            "item": {
+              "count": 1,
+              "id": "csr:sharpened_stick"
+            },
+            "operation": "replace",
+            "slot": "mainhand"
+          }
+        }
+      ],
+      "predicate": {
+        "type": "csr:has_item",
+        "test": {
+          "item": "minecraft:stick",
+          "slot": "mainhand"
+        }
+      }
+    },
+    "minecraft:heart_of_the_sea": {
+      "effect": [
+        {
+          "type": "csr:apply_effect",
+          "effect": {
+            "duration": "360s",
+            "effect": "minecraft:conduit_power",
+            "operation": "add"
+          }
+        }
+      ],
+      "predicate": {
+        "type": "csr:logic",
+        "test": {
+          "operation": "not",
+          "predicate": {
+            "type": "csr:has_effect",
+            "test": {
+              "effect": "minecraft:conduit_power"
+            }
+          }
+        }
+      }
+    },
+    "minecraft:honey_bottle": {
+      "break_chance": 0.1,
+      "effect": [
+        {
+          "type": "csr:apply_effect",
+          "effect": {
+            "effect": "minecraft:poison",
+            "operation": "remove"
+          }
+        }
+      ],
+      "predicate": {
+        "type": "csr:has_effect",
+        "test": {
+          "effect": "minecraft:poison"
+        }
+      }
+    },
+    "minecraft:nether_wart": {
+      "break_chance": "always",
+      "effect": [
+        {
+          "type": "csr:conversion",
+          "conversion": {
+            "type": "csr:vampire_clay_soldier",
+            "additional_data": {
+              "Alpha": 1
+            }
+          }
+        }
+      ],
+      "predicate": {
+        "type": "csr:logic",
+        "test": {
+          "operation": "not",
+          "predicate": {
+            "type": "csr:holdable_property",
+            "test": {
+              "property": "attack_type",
+              "test_type": "exactly",
+              "value": 7
+            }
+          }
+        }
+      }
+    },
+    "minecraft:rotten_flesh": {
+      "break_chance": "always",
+      "effect": [
+        {
+          "type": "csr:conversion",
+          "conversion": {
+            "type": "csr:zombie_clay_soldier",
+            "additional_data": {
+              "Curable": 0,
+              "match_teams": 1,
+              "pick_items": 1
+            }
+          }
+        }
+      ],
+      "predicate": {
+        "type": "csr:logic",
+        "test": {
+          "operation": "not",
+          "predicate": {
+            "type": "csr:holdable_property",
+            "test": {
+              "property": "attack_type",
+              "test_type": "exactly",
+              "value": 6
+            }
+          }
+        }
+      }
+    }
+  }
+}

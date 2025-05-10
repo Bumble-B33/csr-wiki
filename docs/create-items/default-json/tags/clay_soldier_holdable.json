@@ -1,0 +1,40 @@
+{
+  "values": [
+    {
+      "id": "#csr:clay_soldier_weapon",
+      "required": false
+    },
+    {
+      "id": "#csr:clay_soldier_armor",
+      "required": false
+    },
+    "#minecraft:coals",
+    "minecraft:snowball",
+    "minecraft:fire_charge",
+    "minecraft:slime_ball",
+    "minecraft:gravel",
+    "minecraft:glass_bottle",
+    "minecraft:sugar",
+    "minecraft:gunpowder",
+    "minecraft:tnt",
+    "minecraft:magma_cream",
+    "minecraft:poisonous_potato",
+    "minecraft:emerald",
+    "minecraft:redstone",
+    "minecraft:nether_star",
+    "minecraft:amethyst_shard",
+    "minecraft:glowstone_dust",
+    "minecraft:glow_ink_sac",
+    "minecraft:dragon_breath",
+    "minecraft:golden_apple",
+    "minecraft:totem_of_undying",
+    "minecraft:echo_shard",
+    "minecraft:fermented_spider_eye",
+    "minecraft:wheat",
+    "minecraft:glistering_melon_slice",
+    "minecraft:ender_pearl",
+    "minecraft:chorus_fruit",
+    "minecraft:firework_rocket",
+    "minecraft:firework_star"
+  ]
+}

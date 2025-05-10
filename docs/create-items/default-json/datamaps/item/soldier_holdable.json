@@ -1,0 +1,966 @@
+{
+  "values": {
+    "#csr:soldier_rgb_glasses": {
+      "properties": {
+        "protection": 1.0,
+        "see_invisibility": {}
+      },
+      "slot": "head"
+    },
+    "#minecraft:coals": {
+      "predicate": {
+        "type": "csr:holdable_property",
+        "test": {
+          "property": "set_on_fire",
+          "test_type": "increase"
+        }
+      },
+      "properties": {
+        "set_on_fire": "20s"
+      },
+      "slots": [
+        "backpack_passive",
+        "backpack"
+      ]
+    },
+    "csr:sharpened_stick": {
+      "properties": {
+        "damage": 3.0
+      },
+      "slot": "mainhand"
+    },
+    "csr:shear_blade": {
+      "pick_priority": "low",
+      "properties": {
+        "damage": 1.25,
+        "special_attack": [
+          {
+            "type": "csr:sneak_attack",
+            "attack_properties": {
+              "attack_type": "melee",
+              "damage": 0.5
+            }
+          }
+        ]
+      },
+      "slot": "hands"
+    },
+    "minecraft:amethyst_shard": {
+      "on_pick": [
+        {
+          "type": "csr:dye_soldier",
+          "dye": {
+            "color": 8339378
+          }
+        }
+      ],
+      "properties": {
+        "invisible": {}
+      },
+      "slots": [
+        "backpack_passive",
+        "backpack"
+      ]
+    },
+    "minecraft:bamboo": {
+      "properties": {
+        "breath_hold": "infinite"
+      },
+      "slot": "head"
+    },
+    "minecraft:blaze_powder": {
+      "predicate": {
+        "type": "csr:holdable_property",
+        "test": {
+          "property": "set_on_fire",
+          "test_type": "increase"
+        }
+      },
+      "properties": {
+        "set_on_fire": "20s"
+      },
+      "slot": "head"
+    },
+    "minecraft:blaze_rod": {
+      "pick_priority": "high",
+      "properties": {
+        "damage": 1.5
+      },
+      "slot": "mainhand"
+    },
+    "minecraft:bone": {
+      "properties": {
+        "attack_range": 0.1,
+        "damage": 1.0
+      },
+      "slot": "mainhand"
+    },
+    "minecraft:bowl": {
+      "properties": {
+        "damage_block": {
+          "amount": 0.5,
+          "chance": 2.0
+        }
+      },
+      "slot": "hands"
+    },
+    "minecraft:brick": {
+      "pick_priority": "high",
+      "properties": {
+        "attributes": {
+          "minecraft:generic.movement_speed": [
+            {
+              "amount": -0.20000000298023224,
+              "id": "csr:brick_armor_slow",
+              "operation": "add_multiplied_total"
+            }
+          ]
+        },
+        "breath_hold": "none",
+        "heavy": 5.0,
+        "protection": 10.0
+      },
+      "slot": "chest"
+    },
+    "minecraft:cactus": {
+      "properties": {
+        "counter_attack": [
+          {
+            "type": "csr:thorns",
+            "attack_properties": {
+              "attack_type": "melee_and_ranged",
+              "damage": 1.0
+            }
+          }
+        ],
+        "protection": 1.0
+      },
+      "slot": "chest"
+    },
+    "minecraft:chorus_fruit": {
+      "on_pick": [
+        {
+          "type": "csr:dye_soldier",
+          "dye": {
+            "color": 9332621,
+            "overwrite": true
+          }
+        }
+      ],
+      "properties": {
+        "size": 0.9,
+        "teleportation": {}
+      },
+      "removal_condition": {
+        "on_teleport": {
+          "chance": 0.2,
+          "teleportation_type": "to_target"
+        }
+      },
+      "slots": [
+        "backpack_passive",
+        "backpack"
+      ]
+    },
+    "minecraft:coal_block": {
+      "drop_rate": "never",
+      "pick_priority": "very_high",
+      "properties": {
+        "protection": 2.0
+      },
+      "slot": "capability_pick_up"
+    },
+    "minecraft:command_block": {
+      "drop_rate": "never",
+      "on_pick": [
+        {
+          "type": "csr:apply_effect",
+          "effect": {
+            "amplifier": 3,
+            "duration": "300s",
+            "effect": "minecraft:regeneration",
+            "operation": "add"
+          }
+        },
+        {
+          "type": "csr:dye_soldier",
+          "dye": {
+            "color": "jeb_"
+          }
+        }
+      ],
+      "pick_priority": "very_high",
+      "properties": {
+        "attack_type": "aggressive",
+        "attributes": {
+          "minecraft:generic.max_health": [
+            {
+              "amount": 30.0,
+              "id": "csr:soldier_com_health",
+              "operation": "add_value"
+            }
+          ]
+        },
+        "breath_hold": "infinite",
+        "can_swim": {},
+        "counter_attack": [
+          {
+            "type": "csr:thorns",
+            "attack_properties": {
+              "attack_type": "melee_and_ranged",
+              "damage": 2.0
+            }
+          }
+        ],
+        "damage": 10.0,
+        "damage_block": {
+          "amount": 2.0,
+          "chance": 0.5,
+          "pierceable": false
+        },
+        "death_cloud": [
+          {
+            "amplifier": 5,
+            "duration": 1,
+            "effect": "minecraft:instant_damage"
+          }
+        ],
+        "death_exploder": 2.0,
+        "glow_outline": {},
+        "glowing": {},
+        "heavy": 5.0,
+        "immunity": {
+          "minecraft:blindness": "immune",
+          "minecraft:poison": "immune",
+          "minecraft:regeneration": "persistent",
+          "minecraft:weakness": "immune",
+          "minecraft:wither": "immune"
+        },
+        "protection": 25.0,
+        "set_on_fire": 2,
+        "size": 1.4,
+        "special_attack": [
+          {
+            "type": "csr:sneak_attack",
+            "attack_properties": {
+              "attack_type": "melee_and_ranged",
+              "damage": 2.0
+            }
+          },
+          {
+            "type": "csr:lightning_attack",
+            "attack_properties": {
+              "attack_type": "melee_and_ranged",
+              "damage": 1.0
+            }
+          },
+          {
+            "type": "csr:critical_hit",
+            "attack_properties": {
+              "attack_type": "melee_and_ranged",
+              "damage": 7.0
+            }
+          }
+        ],
+        "wraith": {
+          "attack_effect": [
+            {
+              "type": "csr:lightning_attack",
+              "attack_properties": {
+                "attack_type": "melee",
+                "damage": 1.0
+              }
+            },
+            {
+              "type": "csr:critical_hit",
+              "attack_properties": {
+                "attack_type": "melee",
+                "damage": 7.0
+              }
+            }
+          ],
+          "damage": 3.5,
+          "duration": 13
+        }
+      },
+      "slot": "head"
+    },
+    "minecraft:debug_stick": {
+      "drop_rate": "never",
+      "pick_priority": "very_high",
+      "properties": {
+        "attack_range": 0.2,
+        "attack_type": "aggressive",
+        "damage": 25.0,
+        "see_invisibility": {},
+        "set_on_fire": "80s",
+        "special_attack": [
+          {
+            "type": "csr:critical_hit",
+            "attack_properties": {
+              "attack_type": "melee",
+              "chance": 0.25,
+              "damage": 25.0
+            }
+          }
+        ]
+      },
+      "slot": "hands"
+    },
+    "minecraft:diamond": {
+      "drop_rate": "never",
+      "pick_priority": "very_high",
+      "properties": {
+        "attack_type": "queen",
+        "protection": 1.5,
+        "size": 1.1
+      },
+      "slot": "head"
+    },
+    "minecraft:diamond_block": {
+      "drop_rate": "never",
+      "pick_priority": "very_high",
+      "properties": {
+        "protection": 1.0,
+        "size": 1.1,
+        "special_attack": [
+          {
+            "type": "csr:critical_hit",
+            "attack_properties": {
+              "attack_type": "melee",
+              "damage": 1.0
+            }
+          }
+        ]
+      },
+      "slot": "capability_pick_up"
+    },
+    "minecraft:dragon_breath": {
+      "properties": {
+        "revive_other": {
+          "type": "spiritual",
+          "chance": 0.75,
+          "cooldown": 10,
+          "priority": 0
+        }
+      },
+      "slot": "backpack"
+    },
+    "minecraft:echo_shard": {
+      "on_pick": [
+        {
+          "type": "csr:dye_soldier",
+          "dye": {
+            "color": 213328,
+            "overwrite": true
+          }
+        }
+      ],
+      "properties": {
+        "see_invisibility": {},
+        "wraith": {
+          "attack_effect": [
+            {
+              "type": "csr:smite",
+              "attack_properties": {
+                "attack_type": "melee",
+                "damage": 1.0
+              }
+            }
+          ],
+          "duration": 6
+        }
+      },
+      "slots": [
+        "backpack_passive",
+        "backpack"
+      ]
+    },
+    "minecraft:emerald": {
+      "properties": {
+        "special_attack": [
+          {
+            "type": "csr:lightning_attack",
+            "attack_properties": {
+              "attack_type": "melee",
+              "damage": 1.0
+            }
+          }
+        ]
+      },
+      "slot": "backpack"
+    },
+    "minecraft:ender_pearl": {
+      "drop_rate": "never",
+      "pick_priority": "high",
+      "properties": {
+        "can_swim": {},
+        "teleport_to_owner": {}
+      },
+      "slot": "backpack"
+    },
+    "minecraft:feather": {
+      "properties": {
+        "glide": {}
+      },
+      "slots": [
+        "backpack_passive",
+        "backpack"
+      ]
+    },
+    "minecraft:fermented_spider_eye": {
+      "pick_priority": "very_high",
+      "properties": {
+        "attack_type": "aggressive"
+      },
+      "slot": "backpack_passive"
+    },
+    "minecraft:fire_charge": {
+      "max_stack_size": 6,
+      "pick_priority": "high",
+      "properties": {
+        "damage": 2.0,
+        "set_on_fire": 45,
+        "throwable": "harmful"
+      },
+      "removal_condition": {
+        "ranged_use": "always"
+      },
+      "slot": "backpack"
+    },
+    "minecraft:firework_rocket": {
+      "properties": {
+        "evacuation": "firework"
+      },
+      "removal_condition": {
+        "on_escape": "always"
+      },
+      "slots": [
+        "backpack_passive",
+        "backpack"
+      ]
+    },
+    "minecraft:firework_star": {
+      "drop_rate": "never",
+      "pick_priority": "low",
+      "properties": {},
+      "slots": [
+        "backpack_passive",
+        "backpack"
+      ]
+    },
+    "minecraft:glass_bottle": {
+      "pick_priority": "low",
+      "properties": {
+        "breath_hold": 10
+      },
+      "slot": "backpack"
+    },
+    "minecraft:glass_pane": {
+      "properties": {
+        "protection": 1.0,
+        "see_invisibility": {}
+      },
+      "slot": "head"
+    },
+    "minecraft:glistering_melon_slice": {
+      "pick_priority": "very_high",
+      "properties": {
+        "attack_type": "support",
+        "throwable": "helping"
+      },
+      "slot": "backpack_passive"
+    },
+    "minecraft:glow_ink_sac": {
+      "pick_priority": "low",
+      "properties": {
+        "glowing": {}
+      },
+      "slots": [
+        "backpack_passive",
+        "backpack"
+      ]
+    },
+    "minecraft:glowstone_dust": {
+      "pick_priority": "low",
+      "properties": {
+        "glowing": {}
+      },
+      "slots": [
+        "backpack_passive",
+        "backpack"
+      ]
+    },
+    "minecraft:gold_block": {
+      "drop_rate": "never",
+      "pick_priority": "very_high",
+      "properties": {
+        "protection": 2.0,
+        "size": 1.1,
+        "special_attack": [
+          {
+            "type": "csr:critical_hit",
+            "attack_properties": {
+              "attack_type": "melee",
+              "chance": 0.75,
+              "damage": 1.0
+            }
+          }
+        ]
+      },
+      "slot": "capability_pick_up"
+    },
+    "minecraft:gold_ingot": {
+      "drop_rate": "never",
+      "pick_priority": "very_high",
+      "properties": {
+        "attack_type": "king",
+        "protection": 1.5,
+        "size": 1.25
+      },
+      "slot": "head"
+    },
+    "minecraft:golden_apple": {
+      "pick_priority": "very_high",
+      "properties": {
+        "attack_type": "support",
+        "revive_other": {
+          "type": "medic",
+          "cooldown": "100s",
+          "priority": 3
+        },
+        "special_attack": [
+          {
+            "type": "csr:effect",
+            "attack_properties": {
+              "amplifier": 2,
+              "attack_type": "melee",
+              "duration": "600s",
+              "effect": "minecraft:regeneration"
+            }
+          }
+        ]
+      },
+      "slot": "backpack"
+    },
+    "minecraft:gravel": {
+      "max_stack_size": 4,
+      "properties": {
+        "damage": 1.0,
+        "special_attack": [
+          {
+            "type": "csr:critical_hit",
+            "attack_properties": {
+              "attack_type": "ranged",
+              "damage": 1.0
+            }
+          }
+        ],
+        "throwable": "harmful"
+      },
+      "removal_condition": {
+        "ranged_use": "always"
+      },
+      "slot": "backpack"
+    },
+    "minecraft:gunpowder": {
+      "properties": {
+        "death_exploder": 1.0
+      },
+      "slots": [
+        "backpack_passive",
+        "backpack"
+      ]
+    },
+    "minecraft:leather": {
+      "pick_priority": "low",
+      "properties": {
+        "protection": 3.0
+      },
+      "slot": "chest"
+    },
+    "minecraft:lily_pad": {
+      "predicate": {
+        "type": "csr:logic",
+        "test": {
+          "operation": "not",
+          "predicate": {
+            "type": "csr:holdable_property",
+            "test": {
+              "property": "heavy",
+              "test_type": "increase"
+            }
+          }
+        }
+      },
+      "properties": {
+        "can_swim": {},
+        "protection": 2.0
+      },
+      "slot": "legs"
+    },
+    "minecraft:magma_cream": {
+      "pick_priority": "high",
+      "properties": {
+        "death_exploder": 1.0,
+        "special_attack": [
+          {
+            "type": "csr:critical_hit",
+            "attack_properties": {
+              "attack_type": "melee",
+              "damage": 1.0
+            }
+          }
+        ]
+      },
+      "slots": [
+        "backpack_passive",
+        "backpack"
+      ]
+    },
+    "minecraft:nether_star": {
+      "drop_rate": "never",
+      "pick_priority": "very_high",
+      "properties": {
+        "attributes": {
+          "minecraft:generic.max_health": [
+            {
+              "amount": 10.0,
+              "id": "csr:giant_health",
+              "operation": "add_value"
+            }
+          ],
+          "minecraft:generic.movement_speed": [
+            {
+              "amount": -0.20000000298023224,
+              "id": "csr:giant_slow",
+              "operation": "add_multiplied_total"
+            }
+          ]
+        },
+        "damage": 2.0,
+        "size": 2.0,
+        "special_attack": [
+          {
+            "type": "csr:critical_hit",
+            "attack_properties": {
+              "attack_type": "melee",
+              "damage": 1.0
+            }
+          }
+        ]
+      },
+      "slots": [
+        "backpack_passive",
+        "backpack"
+      ]
+    },
+    "minecraft:paper": {
+      "drop_rate": "never",
+      "properties": {
+        "protection": 0.1
+      },
+      "slot": "cape"
+    },
+    "minecraft:poisonous_potato": {
+      "properties": {
+        "death_cloud": [
+          {
+            "amplifier": 1,
+            "duration": 30,
+            "effect": "minecraft:poison"
+          }
+        ],
+        "immunity": {
+          "minecraft:poison": "immune"
+        },
+        "special_attack": [
+          {
+            "type": "csr:effect",
+            "attack_properties": {
+              "amplifier": 1,
+              "attack_type": "melee",
+              "duration": 30,
+              "effect": "minecraft:poison"
+            }
+          }
+        ]
+      },
+      "slots": [
+        "backpack_passive",
+        "backpack"
+      ]
+    },
+    "minecraft:rabbit_hide": {
+      "properties": {
+        "glide": {}
+      },
+      "slots": [
+        "backpack_passive",
+        "backpack"
+      ]
+    },
+    "minecraft:red_mushroom": {
+      "properties": {
+        "immunity": {
+          "minecraft:poison": "immune"
+        },
+        "protection": 1.0
+      },
+      "slot": "head"
+    },
+    "minecraft:redstone": {
+      "predicate": {
+        "type": "csr:logic",
+        "test": {
+          "operation": "any",
+          "predicates": [
+            {
+              "type": "csr:has_item",
+              "test": {
+                "item": "minecraft:air",
+                "slot": "offhand"
+              }
+            },
+            {
+              "type": "csr:has_item",
+              "test": {
+                "item": "minecraft:air",
+                "slot": "mainhand"
+              }
+            }
+          ]
+        }
+      },
+      "properties": {
+        "special_attack": [
+          {
+            "type": "csr:effect",
+            "attack_properties": {
+              "amplifier": 1,
+              "attack_type": "melee_and_ranged",
+              "duration": 30,
+              "effect": "minecraft:blindness"
+            }
+          }
+        ]
+      },
+      "slot": "backpack_passive"
+    },
+    "minecraft:shears": {
+      "pick_priority": "high",
+      "properties": {},
+      "slot": "capability_pick_up"
+    },
+    "minecraft:skeleton_skull": {
+      "pick_priority": "very_high",
+      "properties": {
+        "revive_other": {
+          "type": "necrotic",
+          "chance": 0.5,
+          "cooldown": "20s",
+          "priority": 1
+        }
+      },
+      "slot": "head"
+    },
+    "minecraft:slime_ball": {
+      "max_stack_size": 6,
+      "pick_priority": "high",
+      "properties": {
+        "damage": 2.0,
+        "special_attack": [
+          {
+            "type": "csr:effect",
+            "attack_properties": {
+              "amplifier": 1,
+              "attack_type": "ranged",
+              "duration": "20s",
+              "effect": "csr:slime_root"
+            }
+          }
+        ],
+        "throwable": "harmful"
+      },
+      "removal_condition": {
+        "ranged_use": "always"
+      },
+      "slot": "backpack"
+    },
+    "minecraft:snowball": {
+      "max_stack_size": 8,
+      "pick_priority": "low",
+      "properties": {
+        "damage": 2.0,
+        "special_attack": [
+          {
+            "type": "csr:effect",
+            "attack_properties": {
+              "attack_type": "ranged",
+              "duration": "400s",
+              "effect": "minecraft:slowness"
+            }
+          }
+        ],
+        "throwable": "harmful"
+      },
+      "removal_condition": {
+        "ranged_use": "always"
+      },
+      "slot": "backpack"
+    },
+    "minecraft:stick": {
+      "properties": {
+        "damage": 2.0
+      },
+      "slot": "mainhand"
+    },
+    "minecraft:string": {
+      "max_stack_size": 2,
+      "properties": {
+        "explosion_resistance": 24.0
+      },
+      "removal_condition": {
+        "on_hurt": {
+          "chance": 0.5,
+          "condition": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_explosion"
+              }
+            ]
+          }
+        }
+      },
+      "slots": [
+        "backpack_passive",
+        "backpack"
+      ]
+    },
+    "minecraft:sugar": {
+      "pick_priority": "low",
+      "properties": {
+        "attributes": {
+          "minecraft:generic.movement_speed": [
+            {
+              "amount": 0.5,
+              "id": "csr:sugar_speed",
+              "operation": "add_multiplied_total"
+            }
+          ]
+        }
+      },
+      "slots": [
+        "backpack_passive",
+        "backpack"
+      ]
+    },
+    "minecraft:tnt": {
+      "pick_priority": "high",
+      "properties": {
+        "death_exploder": 2.0
+      },
+      "slots": [
+        "backpack_passive",
+        "backpack"
+      ]
+    },
+    "minecraft:totem_of_undying": {
+      "pick_priority": "very_high",
+      "properties": {
+        "revive_other": {
+          "type": "angel",
+          "cooldown": "2000s",
+          "priority": 4
+        },
+        "special_attack": [
+          {
+            "type": "csr:smite",
+            "attack_properties": {
+              "attack_type": "melee_and_ranged",
+              "damage": 3.0
+            }
+          }
+        ]
+      },
+      "slot": "backpack_passive"
+    },
+    "minecraft:turtle_scute": {
+      "properties": {
+        "breath_hold": 30,
+        "protection": 2.0
+      },
+      "slot": "head"
+    },
+    "minecraft:wheat": {
+      "pick_priority": "very_high",
+      "properties": {
+        "attack_type": "pacifist"
+      },
+      "slot": "backpack_passive"
+    },
+    "minecraft:wither_skeleton_skull": {
+      "on_pick": [
+        {
+          "type": "csr:set_item",
+          "set_item": {
+            "item": {
+              "count": 1,
+              "id": "minecraft:coal_block"
+            },
+            "slot": "feet"
+          }
+        },
+        {
+          "type": "csr:set_item",
+          "set_item": {
+            "item": {
+              "count": 1,
+              "id": "minecraft:coal_block"
+            },
+            "slot": "legs"
+          }
+        },
+        {
+          "type": "csr:set_item",
+          "set_item": {
+            "item": {
+              "count": 1,
+              "id": "minecraft:coal_block"
+            },
+            "slot": "chest"
+          }
+        }
+      ],
+      "pick_priority": "very_high",
+      "properties": {
+        "death_cloud": [
+          {
+            "duration": 10,
+            "effect": "minecraft:wither"
+          }
+        ],
+        "immunity": {
+          "minecraft:wither": "immune"
+        },
+        "revive_other": {
+          "type": "dark_necrotic",
+          "chance": 0.5,
+          "cooldown": "80s",
+          "priority": 2
+        },
+        "special_attack": [
+          {
+            "type": "csr:critical_hit",
+            "attack_properties": {
+              "attack_type": "melee",
+              "damage": 1.0
+            }
+          }
+        ]
+      },
+      "slot": "head"
+    }
+  }
+}

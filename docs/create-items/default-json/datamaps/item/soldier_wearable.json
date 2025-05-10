@@ -1,0 +1,232 @@
+{
+  "values": {
+    "#csr:soldier_rgb_glasses": {
+      "armor": {
+        "head": {
+          "trims": [
+            {
+              "color": "jeb_",
+              "material": "minecraft:quartz",
+              "pattern": "minecraft:eye"
+            },
+            {
+              "material": "minecraft:netherite",
+              "pattern": "minecraft:spire"
+            }
+          ]
+        }
+      }
+    },
+    "minecraft:bamboo": {
+      "accessories": {
+        "snorkel": "csr:textures/entity/clay_soldier/bamboo_stick.png"
+      }
+    },
+    "minecraft:blaze_powder": {
+      "accessories": {
+        "skull": {
+          "item": "minecraft:player_head",
+          "profile": {
+            "name": "MHF_Blaze"
+          }
+        }
+      }
+    },
+    "minecraft:bowl": {
+      "accessories": {
+        "shield": "csr:textures/entity/clay_soldier/clay_shield.png"
+      }
+    },
+    "minecraft:brick": {
+      "armor": {
+        "chest": {
+          "color": 11031355,
+          "model": "minecraft:netherite_chestplate"
+        }
+      }
+    },
+    "minecraft:cactus": {
+      "armor": {
+        "chest": {
+          "color": 6592562,
+          "model": "minecraft:netherite_chestplate",
+          "trim": {
+            "material": "minecraft:netherite",
+            "pattern": "minecraft:rib"
+          }
+        }
+      }
+    },
+    "minecraft:coal_block": {
+      "armor": {
+        "chest": {
+          "color": 1908001,
+          "model": "minecraft:leather_chestplate"
+        },
+        "feet": {
+          "color": 1908001,
+          "model": "minecraft:leather_boots"
+        },
+        "legs": {
+          "color": 1908001,
+          "model": "minecraft:leather_leggings"
+        }
+      }
+    },
+    "minecraft:command_block": {
+      "accessories": {
+        "skull": {
+          "item": "minecraft:command_block"
+        }
+      }
+    },
+    "minecraft:diamond": {
+      "armor": {
+        "head": {
+          "trims": [
+            {
+              "material": "minecraft:diamond",
+              "pattern": "minecraft:wayfinder"
+            },
+            {
+              "material": "minecraft:emerald",
+              "pattern": "minecraft:host"
+            }
+          ]
+        }
+      }
+    },
+    "minecraft:diamond_block": {
+      "armor": {
+        "chest": {
+          "trims": [
+            {
+              "material": "minecraft:emerald",
+              "pattern": "minecraft:shaper"
+            },
+            {
+              "material": "minecraft:diamond",
+              "pattern": "minecraft:vex"
+            }
+          ]
+        }
+      }
+    },
+    "minecraft:feather": {
+      "accessories": {
+        "glider": "minecraft:feather"
+      }
+    },
+    "minecraft:glass_pane": {
+      "armor": {
+        "head": {
+          "trims": [
+            {
+              "material": "minecraft:quartz",
+              "pattern": "minecraft:eye"
+            },
+            {
+              "material": "minecraft:netherite",
+              "pattern": "minecraft:spire"
+            }
+          ]
+        }
+      }
+    },
+    "minecraft:gold_block": {
+      "armor": {
+        "chest": {
+          "model": "minecraft:chainmail_chestplate",
+          "trims": [
+            {
+              "material": "minecraft:gold",
+              "pattern": "minecraft:shaper"
+            },
+            {
+              "material": "minecraft:gold",
+              "pattern": "minecraft:vex"
+            }
+          ]
+        }
+      }
+    },
+    "minecraft:gold_ingot": {
+      "armor": {
+        "head": {
+          "model": "minecraft:golden_helmet",
+          "trim": {
+            "material": "minecraft:lapis",
+            "pattern": "minecraft:shaper"
+          }
+        }
+      }
+    },
+    "minecraft:leather": {
+      "armor": {
+        "chest": {
+          "color": -6265536,
+          "model": "minecraft:leather_chestplate",
+          "offset_color": true
+        }
+      }
+    },
+    "minecraft:lily_pad": {
+      "armor": {
+        "legs": {
+          "color": 2129968,
+          "model": "minecraft:iron_leggings"
+        }
+      }
+    },
+    "minecraft:paper": {
+      "accessories": {
+        "cape": {
+          "texture_location": "csr:textures/entity/clay_soldier/paper_cape.png"
+        }
+      }
+    },
+    "minecraft:rabbit_hide": {
+      "accessories": {
+        "glider": "minecraft:rabbit_hide"
+      }
+    },
+    "minecraft:red_mushroom": {
+      "armor": {
+        "head": {
+          "color": 16777215,
+          "model": "minecraft:iron_helmet",
+          "trim": {
+            "material": "minecraft:redstone",
+            "pattern": "minecraft:silence"
+          }
+        }
+      }
+    },
+    "minecraft:skeleton_skull": {
+      "accessories": {
+        "skull": {
+          "item": "minecraft:skeleton_skull"
+        }
+      }
+    },
+    "minecraft:string": {
+      "accessories": {
+        "wrapped": "csr:textures/entity/clay_soldier/wrapped.png"
+      }
+    },
+    "minecraft:turtle_scute": {
+      "armor": {
+        "head": {
+          "model": "minecraft:turtle_helmet"
+        }
+      }
+    },
+    "minecraft:wither_skeleton_skull": {
+      "accessories": {
+        "skull": {
+          "item": "minecraft:wither_skeleton_skull"
+        }
+      }
+    }
+  }
+}

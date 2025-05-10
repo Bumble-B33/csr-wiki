@@ -1,0 +1,27 @@
+{
+  "values": [
+    "minecraft:lily_pad",
+    "minecraft:red_mushroom",
+    "minecraft:leather",
+    "minecraft:glass_pane",
+    "#csr:soldier_rgb_glasses",
+    "minecraft:paper",
+    "minecraft:bamboo",
+    "minecraft:brick",
+    "minecraft:turtle_scute",
+    "minecraft:gold_ingot",
+    "minecraft:gold_block",
+    "minecraft:diamond",
+    "minecraft:diamond_block",
+    "minecraft:cactus",
+    "minecraft:string",
+    "minecraft:feather",
+    "minecraft:rabbit_hide",
+    "minecraft:skeleton_skull",
+    "minecraft:wither_skeleton_skull",
+    "minecraft:coal_block",
+    "minecraft:blaze_powder",
+    "minecraft:bowl",
+    "minecraft:command_block"
+  ]
+}
