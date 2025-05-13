@@ -59,10 +59,12 @@ export default defineUserConfig({
                     text: 'Items',
                     children: [
                         'soldier-puppet.md',
+                        'clay-horses.md',
                         'clay-brush.md',
                         'clay-cookie.md',
                         'clay-goggles.md',
-                        'clay-horses.md',
+                        'clay-pouch.md',
+                        'clay-disruptor',
                         'hamster-wheel.md'
                     ],
                 }
@@ -77,12 +79,11 @@ export default defineUserConfig({
                         "/create-items/pois",
                         "/create-items/teams",
                         "/create-items/itemsettypes",
-                        "/create-items/vehicle_properties",
                         "/create-items/tags",
                         "/create-items/example",
                         "/create-items/holdable-values",
                         "/create-items/soldier-properties",
-                        "/create-items/common-values"
+                        "/create-items/common-values",
                     ]
                 }
             ]
@@ -95,8 +96,6 @@ export default defineUserConfig({
         ['link', {rel: 'apple-touch-icon', href: "/csr-wiki/images/logo/apple-touch-icon.png", sizes: "180x180" }],
         ['meta', {name: "apple-mobile-web-app-title", content: "CSR Wiki" }],
         ['link', {rel: 'manifest', href: "/csr-wiki/images/logo/site.webmanifest" }],
-
-
     ],
 
     bundler: viteBundler(),

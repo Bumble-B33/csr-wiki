@@ -9,6 +9,7 @@
     "minecraft:bamboo",
     "minecraft:brick",
     "minecraft:turtle_scute",
+    "minecraft:slime_block",
     "minecraft:gold_ingot",
     "minecraft:gold_block",
     "minecraft:diamond",
@@ -20,8 +21,8 @@
     "minecraft:skeleton_skull",
     "minecraft:wither_skeleton_skull",
     "minecraft:coal_block",
-    "minecraft:blaze_powder",
     "minecraft:bowl",
+    "minecraft:iron_nugget",
     "minecraft:command_block"
   ]
 }

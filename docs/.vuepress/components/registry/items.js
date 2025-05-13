@@ -2,6 +2,7 @@
  * Returns a Map of the ItemObjects associated with the give name
  * @type {Map<String, {
  *  img: String,
+ *  [rarity: String],
  *  [damage: Number],
  *  [att_speed: Number],
  *  [armor: Number],
@@ -17,6 +18,7 @@ export const itemList = new Map();
  * @param name { String }
  * @returns {{
  *  img: String,
+ *  [rarity: String]: *
  *  [damage: Number]: *,
  *  [att_speed: Number]: *,
  *  [armor: Number]: *,
@@ -47,8 +49,9 @@ itemList.set("coal", {img: "/minecraft/items/coal"});
 itemList.set("charcoal", {img: "/minecraft/items/charcoal"});
 itemList.set("chorus_fruit", {img: "/minecraft/items/chorus_fruit"});
 itemList.set("diamond", {img: "/minecraft/items/diamond"});
-itemList.set("dragon_breath", {img: "/minecraft/items/dragon_breath"});
+itemList.set("dragon_breath", {img: "/minecraft/items/dragon_breath", rarity: "#FFFF55"});
 itemList.set("echo_shard", {img: "/minecraft/items/echo_shard"});
+itemList.set("egg", {img: "/minecraft/items/egg"});
 itemList.set("emerald", {img: "/minecraft/items/emerald"});
 itemList.set("ender_pearl", {img: "/minecraft/items/ender_pearl"});
 itemList.set("feather", {img: "/minecraft/items/feather"});
@@ -60,11 +63,11 @@ itemList.set("glistering_melon_slice", {img: "/minecraft/items/glistering_melon_
 itemList.set("glowstone_dust", {img: "/minecraft/items/glowstone_dust"});
 itemList.set("glow_ink_sac", {img: "/minecraft/items/glow_ink_sac"});
 itemList.set("gold_ingot", {img: "/minecraft/items/gold_ingot"});
-itemList.set("golden_apple", {img: "/minecraft/items/golden_apple"});
+itemList.set("golden_apple", {img: "/minecraft/items/golden_apple", rarity: "#55FFFF"});
 itemList.set("gunpowder", {img: "/minecraft/items/gunpowder"});
 itemList.set("lily_pad", {img: "/minecraft/items/lily_pad"});
 itemList.set("magma_cream", {img: "/minecraft/items/magma_cream"});
-itemList.set("nether_star", {img: "/minecraft/items/nether_star"});
+itemList.set("nether_star", {img: "/minecraft/items/nether_star", rarity: "#FFFF55"});
 itemList.set("nether_wart", {img: "/minecraft/items/nether_wart"});
 itemList.set("paper", {img: "/minecraft/items/paper"});
 itemList.set("poisonous_potato", {img: "/minecraft/items/poisonous_potato"});
@@ -76,27 +79,28 @@ itemList.set("slime_ball", {img: "/minecraft/items/slime_ball"});
 itemList.set("snowball", {img: "/minecraft/items/snowball"});
 itemList.set("string", {img: "/minecraft/items/string"});
 itemList.set("sugar", {img: "/minecraft/items/sugar"});
-itemList.set("totem_of_undying", {img: "/minecraft/items/totem_of_undying"});
+itemList.set("totem_of_undying", {img: "/minecraft/items/totem_of_undying", rarity: "#FFFF55"});
 itemList.set("turtle_scute", {img: "/minecraft/items/turtle_scute"});
 itemList.set("wheat", {img: "/minecraft/items/wheat"});
 itemList.set("iron_ingot", {img: "/minecraft/items/iron_ingot"});
 itemList.set("flint", {img: "/minecraft/items/flint"});
-itemList.set("heart_of_the_sea", {img: "/minecraft/items/heart_of_the_sea"});
+itemList.set("heart_of_the_sea", {img: "/minecraft/items/heart_of_the_sea", rarity: "#FFFF55"});
 itemList.set("honey_bottle", {img: "/minecraft/items/honey_bottle"});
-itemList.set("debug_stick", {img: "/minecraft/items/debug_stick", animated: true});
+itemList.set("debug_stick", {img: "/minecraft/items/debug_stick", animated: true, rarity: "#FF55FF"});
 
 
 itemList.set("cactus", {img: "/minecraft/blocks/cactus"});
 itemList.set("clay", {img: "/minecraft/blocks/clay"});
-itemList.set("command_block", {img: "/minecraft/blocks/command_block"});
+itemList.set("command_block", {img: "/minecraft/blocks/command_block", rarity: "#FF55FF"});
 itemList.set("diamond_block", {img: "/minecraft/blocks/diamond_block"});
 itemList.set("glass", {img: "/minecraft/blocks/glass"});
 itemList.set("gold_block", {img: "/minecraft/blocks/gold_block"});
 itemList.set("gravel", {img: "/minecraft/blocks/gravel"});
-itemList.set("skeleton_skull", {img: "/minecraft/blocks/skeleton_skull"});
+itemList.set("skeleton_skull", {img: "/minecraft/blocks/skeleton_skull", rarity: "#FFFF55"});
 itemList.set("stone", {img: "/minecraft/blocks/stone"});
+itemList.set("terracotta", {img: "/minecraft/blocks/terracotta"});
 itemList.set("tnt", {img: "/minecraft/blocks/tnt"});
-itemList.set("wither_skeleton_skull", {img: "/minecraft/blocks/wither_skeleton_skull"});
+itemList.set("wither_skeleton_skull", {img: "/minecraft/blocks/wither_skeleton_skull", rarity: "#FFFF55"});
 itemList.set("snow_block", {img: "/minecraft/blocks/snow_block"});
 itemList.set("soul_sand", {img: "/minecraft/blocks/soul_sand"});
 itemList.set("grass_block", {img: "/minecraft/blocks/grass_block"});
@@ -145,9 +149,12 @@ itemList.set("clay_brush_work", {img: "/items/clay_brush_work"});
 itemList.set("clay_cookie", {img: "/items/clay_cookie"});
 itemList.set("clay_goggles", {img: "/items/clay_goggles", armor: 1});
 itemList.set("clay_disruptor", {img: "/items/clay_disruptor"});
+itemList.set("terracotta_disruptor", {img: "/items/terracotta_disruptor"});
 
 itemList.set("shear_blade", {img: "/items/shear_blade", damage: 5, att_speed: 1.6});
 itemList.set("sharpened_stick", {img: "/items/sharpened_stick", damage: 4, att_speed: 1.6});
+
+itemList.set("clay_pouch", {img: "/items/clay_pouch", rarity: "#FFFF55"});
 
 itemList.set("cake_horse", {img: "/mounts/cake_horse"});
 itemList.set("grass_horse", {img: "/mounts/grass_horse"});

@@ -1,7 +1,7 @@
 <template>
   <div class="hover-item">
     <span class="hover-preview">
-      <span class="white">{{ item_name }}</span>
+      <span :style="{ color: rarity}">{{ item_name }}</span>
 
       <br v-if="attack_damage || attack_speed">
       <span v-if="attack_damage || attack_speed" class="gray">When in Main Hand:</span>
@@ -27,9 +27,14 @@
 </template>
   
 <script>
+
 export default {
   props: {
     item_name: String,
+    rarity: {
+      type: String,
+      default: "#FFFFFF"
+    },
     attack_damage: [Number, String],
     attack_speed: [Number, String],
     armor_v: [Number, String],
@@ -113,10 +118,6 @@ export default {
   color: #00AA00;
   padding-left: 10px;
 
-}
-
-.white {
-  color: #FFFFFF;
 }
 
 .gray {

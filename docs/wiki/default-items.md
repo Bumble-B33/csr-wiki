@@ -97,6 +97,8 @@ There are also Items Clay Soldiers can interact with, without picking them up.
 | <Item name="nether_wart"/>                                                                                                                                                                                                                    | Turns the Soldier into an [Alpha Vampire](./clay-soldiers#zombie-soldier)     |
 | <Item name="rotten_flesh"/>                                                                                                                                                                                                                   | Turns the Soldier into an [incurable Zombie](./clay-soldiers#vampire-soldier) |
 | <ItemSlider :items="['black_dye', 'blue_dye', 'brown_dye', 'cyan_dye', 'gray_dye', 'green_dye','light_blue_dye', 'light_gray_dye', 'lime_dye', 'magenta_dye', 'orange_dye','pink_dye', 'purple_dye', 'red_dye', 'white_dye', 'yellow_dye']"/> | Colors some Armor and Accessories, can only be used once                      |
+| <Item name="egg"/>                                                                                                                                                                                                                            | Small Chance to turn the Clay Soldier into a Boss Clay Soldier                |
+
 
 ## Block Pois
 

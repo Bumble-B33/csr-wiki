@@ -24,3 +24,24 @@ Clay Soldiers can also ride standard Minecraft rabbits, using them as swift moun
 or engage in battle. Rabbits provide speed and agility,
 making them a great option for quickly moving soldiers across the battlefield.
 ![Soldier riding Rabbit](../assets/soldier-ridding-rabbit.png)
+
+## Endermite
+
+When mounted, Endermites grant Clay Soldiers teleportation,
+allowing them to blink instantly to new positions—ideal for surprising enemies or dodging incoming attacks.
+
+## Small Slime
+
+Small Slimes act as sturdy, elevated platforms. Ranged Clay Soldiers can perch atop them for extra height and cover,
+launching projectiles safely from a secure vantage point.
+
+## Turtle
+
+Turtles make excellent aquatic mounts. Provide reliable mobility in water,
+letting Clay Soldiers engage foes or navigate waterways with confidence.
+
+## Clay Soldiers
+
+Clay Soldiers can clamber onto larger comrades,
+forming living towers. This maneuver elevates ranged fighters,
+keeping them out of harm’s way while they rain down attacks.

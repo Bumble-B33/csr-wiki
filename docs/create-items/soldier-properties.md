@@ -147,7 +147,7 @@ There is no default value as this property is active when present otherwise not.
 
 ## Teleportation
 
-Teleportation allows the Soldier to teleport to any target that is attacking it,
+Teleportation allows the Soldier to teleport to any target that is attacking it or
 to teleport away from any danger.
 The key is `"teleportation"` and the value can be any `true` or `{}`.
 There is no default value as this property is active when present otherwise not.
@@ -268,7 +268,7 @@ Optionally it can be prefixed with `"modid:"`.
   "minecraft:generic.max_health": {
     "amount": 30.0,
     "id": "soldier_com_health",
-    operation": "add_value"
+    "operation": "add_value"
   },
   "minecraft:generic.movement_speed": {
     "amount": -0.2,
@@ -330,8 +330,8 @@ The possible types are as follows:
 | Name            | Json Key          | Description                                             |
 |-----------------|-------------------|---------------------------------------------------------|
 | `None`          | `"none"`          | No revive.                                              |
-| `Necrotic`      | `"necrotic"`      | Revive a curable Zombie                                 |
-| `Dark Necrotic` | `"dark_necrotic"` | Revive an incurable Zombie                              |
+| `Necrotic`      | `"necrotic"`      | Revive as a curable Zombie                              |
+| `Dark Necrotic` | `"dark_necrotic"` | Revive as an incurable Zombie                           |
 | `Medic`         | `"medic"`         | Revive a burned Soldier on the same team to half health |
 | `Angel`         | `"angel"`         | Revive a Soldier on the same team                       |
 | `Spritual`      | `"spiritual"`     | Convert fallen Soldiers of the same team into Wraiths   |

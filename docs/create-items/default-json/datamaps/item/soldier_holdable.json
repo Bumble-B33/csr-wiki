@@ -16,11 +16,11 @@
         }
       },
       "properties": {
-        "set_on_fire": "20s"
+        "set_on_fire": "1s"
       },
       "slots": [
-        "backpack_passive",
-        "backpack"
+        "backpack",
+        "backpack_passive"
       ]
     },
     "csr:sharpened_stick": {
@@ -58,26 +58,13 @@
         "invisible": {}
       },
       "slots": [
-        "backpack_passive",
-        "backpack"
+        "backpack",
+        "backpack_passive"
       ]
     },
     "minecraft:bamboo": {
       "properties": {
         "breath_hold": "infinite"
-      },
-      "slot": "head"
-    },
-    "minecraft:blaze_powder": {
-      "predicate": {
-        "type": "csr:holdable_property",
-        "test": {
-          "property": "set_on_fire",
-          "test_type": "increase"
-        }
-      },
-      "properties": {
-        "set_on_fire": "20s"
       },
       "slot": "head"
     },
@@ -158,8 +145,8 @@
         }
       },
       "slots": [
-        "backpack_passive",
-        "backpack"
+        "backpack",
+        "backpack_passive"
       ]
     },
     "minecraft:coal_block": {
@@ -177,7 +164,15 @@
           "type": "csr:apply_effect",
           "effect": {
             "amplifier": 3,
-            "duration": "300s",
+            "duration": "15s",
+            "effect": "minecraft:regeneration",
+            "operation": "add"
+          }
+        },
+        {
+          "type": "csr:apply_effect",
+          "effect": {
+            "duration": "5000s",
             "effect": "minecraft:regeneration",
             "operation": "add"
           }
@@ -293,7 +288,7 @@
         "attack_type": "aggressive",
         "damage": 25.0,
         "see_invisibility": {},
-        "set_on_fire": "80s",
+        "set_on_fire": "4s",
         "special_attack": [
           {
             "type": "csr:critical_hit",
@@ -372,8 +367,8 @@
         }
       },
       "slots": [
-        "backpack_passive",
-        "backpack"
+        "backpack",
+        "backpack_passive"
       ]
     },
     "minecraft:emerald": {
@@ -404,8 +399,8 @@
         "glide": {}
       },
       "slots": [
-        "backpack_passive",
-        "backpack"
+        "backpack",
+        "backpack_passive"
       ]
     },
     "minecraft:fermented_spider_eye": {
@@ -436,8 +431,8 @@
         "on_escape": "always"
       },
       "slots": [
-        "backpack_passive",
-        "backpack"
+        "backpack",
+        "backpack_passive"
       ]
     },
     "minecraft:firework_star": {
@@ -445,8 +440,8 @@
       "pick_priority": "low",
       "properties": {},
       "slots": [
-        "backpack_passive",
-        "backpack"
+        "backpack",
+        "backpack_passive"
       ]
     },
     "minecraft:glass_bottle": {
@@ -477,8 +472,8 @@
         "glowing": {}
       },
       "slots": [
-        "backpack_passive",
-        "backpack"
+        "backpack",
+        "backpack_passive"
       ]
     },
     "minecraft:glowstone_dust": {
@@ -487,8 +482,8 @@
         "glowing": {}
       },
       "slots": [
-        "backpack_passive",
-        "backpack"
+        "backpack",
+        "backpack_passive"
       ]
     },
     "minecraft:gold_block": {
@@ -526,7 +521,7 @@
         "attack_type": "support",
         "revive_other": {
           "type": "medic",
-          "cooldown": "100s",
+          "cooldown": "5s",
           "priority": 3
         },
         "special_attack": [
@@ -535,7 +530,7 @@
             "attack_properties": {
               "amplifier": 2,
               "attack_type": "melee",
-              "duration": "600s",
+              "duration": "30s",
               "effect": "minecraft:regeneration"
             }
           }
@@ -568,9 +563,27 @@
         "death_exploder": 1.0
       },
       "slots": [
-        "backpack_passive",
-        "backpack"
+        "backpack",
+        "backpack_passive"
       ]
+    },
+    "minecraft:iron_nugget": {
+      "properties": {
+        "counter_attack": [
+          {
+            "type": "csr:thorns",
+            "attack_properties": {
+              "attack_type": "melee",
+              "damage": 1.0
+            }
+          }
+        ],
+        "damage_block": {
+          "amount": 0.5,
+          "chance": 3.0
+        }
+      },
+      "slot": "capability_pick_up"
     },
     "minecraft:leather": {
       "pick_priority": "low",
@@ -614,8 +627,8 @@
         ]
       },
       "slots": [
-        "backpack_passive",
-        "backpack"
+        "backpack",
+        "backpack_passive"
       ]
     },
     "minecraft:nether_star": {
@@ -651,8 +664,8 @@
         ]
       },
       "slots": [
-        "backpack_passive",
-        "backpack"
+        "backpack",
+        "backpack_passive"
       ]
     },
     "minecraft:paper": {
@@ -687,8 +700,8 @@
         ]
       },
       "slots": [
-        "backpack_passive",
-        "backpack"
+        "backpack",
+        "backpack_passive"
       ]
     },
     "minecraft:rabbit_hide": {
@@ -696,8 +709,8 @@
         "glide": {}
       },
       "slots": [
-        "backpack_passive",
-        "backpack"
+        "backpack",
+        "backpack_passive"
       ]
     },
     "minecraft:red_mushroom": {
@@ -719,14 +732,14 @@
               "type": "csr:has_item",
               "test": {
                 "item": "minecraft:air",
-                "slot": "offhand"
+                "slot": "mainhand"
               }
             },
             {
               "type": "csr:has_item",
               "test": {
                 "item": "minecraft:air",
-                "slot": "mainhand"
+                "slot": "offhand"
               }
             }
           ]
@@ -758,7 +771,7 @@
         "revive_other": {
           "type": "necrotic",
           "chance": 0.5,
-          "cooldown": "20s",
+          "cooldown": "1s",
           "priority": 1
         }
       },
@@ -775,7 +788,7 @@
             "attack_properties": {
               "amplifier": 1,
               "attack_type": "ranged",
-              "duration": "20s",
+              "duration": "1s",
               "effect": "csr:slime_root"
             }
           }
@@ -787,6 +800,12 @@
       },
       "slot": "backpack"
     },
+    "minecraft:slime_block": {
+      "properties": {
+        "bounce": {}
+      },
+      "slot": "feet"
+    },
     "minecraft:snowball": {
       "max_stack_size": 8,
       "pick_priority": "low",
@@ -797,7 +816,7 @@
             "type": "csr:effect",
             "attack_properties": {
               "attack_type": "ranged",
-              "duration": "400s",
+              "duration": "20s",
               "effect": "minecraft:slowness"
             }
           }
@@ -834,8 +853,8 @@
         }
       },
       "slots": [
-        "backpack_passive",
-        "backpack"
+        "backpack",
+        "backpack_passive"
       ]
     },
     "minecraft:sugar": {
@@ -852,8 +871,8 @@
         }
       },
       "slots": [
-        "backpack_passive",
-        "backpack"
+        "backpack",
+        "backpack_passive"
       ]
     },
     "minecraft:tnt": {
@@ -862,8 +881,8 @@
         "death_exploder": 2.0
       },
       "slots": [
-        "backpack_passive",
-        "backpack"
+        "backpack",
+        "backpack_passive"
       ]
     },
     "minecraft:totem_of_undying": {
@@ -871,7 +890,7 @@
       "properties": {
         "revive_other": {
           "type": "angel",
-          "cooldown": "2000s",
+          "cooldown": "100s",
           "priority": 4
         },
         "special_attack": [
@@ -947,7 +966,7 @@
         "revive_other": {
           "type": "dark_necrotic",
           "chance": 0.5,
-          "cooldown": "80s",
+          "cooldown": "4s",
           "priority": 2
         },
         "special_attack": [

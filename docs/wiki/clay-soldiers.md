@@ -23,14 +23,22 @@ Clay Soldiers exhibit different behavior patterns depending on their role and ho
 
 ## Gaining Loyalty from a Team
 
-You can earn the loyalty of an entire team of soldiers, but only one team at a time can be loyal to you.
+The Player can earn the loyalty of an entire team of soldiers, but only one team at a time can be loyal to the same player.
 To gain their loyalty, feed a [Clay Cookie](./items/clay-cookie.md) to a `King` or `Queen` soldier.
+::: info
+A Clay Soldier becomes a `King`/`Queen` by equipping a [`Gold Ingot`/`Diamond`](./default-items.md).
+:::
 ![Team Loyalty](../assets/team-loyalty.png)
 Once loyal, the soldiers will:
 
 * **Follow your commands:** Use a [Clay Brush](./items/clay-brush.md) to direct them.
 * **Defend you:** They will attack any enemy you target
 * **Perform tasks:** You can command them to guard areas or even [work](work.md) for you.
+
+## Waxing a Clay Soldier
+
+Clay Soldiers can be waxed by right-clicking on them with a `Honeycomb`,
+which makes them more resilient to damage. 
 
 ## Soldier Variants
 

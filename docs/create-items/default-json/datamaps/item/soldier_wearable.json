@@ -22,16 +22,6 @@
         "snorkel": "csr:textures/entity/clay_soldier/bamboo_stick.png"
       }
     },
-    "minecraft:blaze_powder": {
-      "accessories": {
-        "skull": {
-          "item": "minecraft:player_head",
-          "profile": {
-            "name": "MHF_Blaze"
-          }
-        }
-      }
-    },
     "minecraft:bowl": {
       "accessories": {
         "shield": "csr:textures/entity/clay_soldier/clay_shield.png"
@@ -101,12 +91,12 @@
         "chest": {
           "trims": [
             {
-              "material": "minecraft:emerald",
-              "pattern": "minecraft:shaper"
-            },
-            {
               "material": "minecraft:diamond",
               "pattern": "minecraft:vex"
+            },
+            {
+              "material": "minecraft:emerald",
+              "pattern": "minecraft:shaper"
             }
           ]
         }
@@ -161,6 +151,11 @@
         }
       }
     },
+    "minecraft:iron_nugget": {
+      "accessories": {
+        "shield": "csr:textures/entity/clay_soldier/studded_clay_shield.png"
+      }
+    },
     "minecraft:leather": {
       "armor": {
         "chest": {
@@ -191,14 +186,9 @@
       }
     },
     "minecraft:red_mushroom": {
-      "armor": {
-        "head": {
-          "color": 16777215,
-          "model": "minecraft:iron_helmet",
-          "trim": {
-            "material": "minecraft:redstone",
-            "pattern": "minecraft:silence"
-          }
+      "accessories": {
+        "skull": {
+          "item": "minecraft:red_mushroom_block"
         }
       }
     },
@@ -206,6 +196,14 @@
       "accessories": {
         "skull": {
           "item": "minecraft:skeleton_skull"
+        }
+      }
+    },
+    "minecraft:slime_block": {
+      "armor": {
+        "feet": {
+          "color": 7845224,
+          "model": "minecraft:iron_boots"
         }
       }
     },

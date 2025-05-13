@@ -1,5 +1,6 @@
 # Clay Brush
 
+## Command Mode
 <ImgInfo>
   <template v-slot:img>
     <Item name="clay_brush_command"/>
@@ -9,6 +10,7 @@
   </template>
 </ImgInfo>
 
+## Work Mode
 <ImgInfo>
   <template v-slot:img>
     <Item name="clay_brush_work"/>
@@ -18,13 +20,14 @@
   </template>
 </ImgInfo>
 
+## POI Mode
 <ImgInfo>
   <template v-slot:img>
     <Item name="clay_brush_poi"/>
   </template>
   <template v-slot:info>
     Give this Soldier a special block to which it will return and can interact with
-    Left-click a Block to save it, right-click a Soldier to make it known.
+    Left-click a Block to save it, Right-click a Soldier to make it known.
   </template>
 </ImgInfo>
 

@@ -1,8 +1,13 @@
 <template>
   <div class="item-wrapper">
-    <tooltip-item v-if="getType === 'normal'" :item_name="generateName" :attack_damage="getItemSource.damage"
-                  :attack_speed="getItemSource.att_speed" :armor_v="getItemSource.armor"
-                  :armor_thougness="getItemSource.armor_thg" :knockback_resistance="getItemSource.knockback"
+    <tooltip-item v-if="getType === 'normal'"
+                  :item_name="generateName"
+                  :rarity="getItemSource.rarity"
+                  :attack_damage="getItemSource.damage"
+                  :attack_speed="getItemSource.att_speed"
+                  :armor_v="getItemSource.armor"
+                  :armor_thougness="getItemSource.armor_thg"
+                  :knockback_resistance="getItemSource.knockback"
                   :lore="getItemSource.lore"
                   :img_size="size" :xoffset="offset" :yoffset="yOffset">
       <img :src="getImg" class="item-img" :alt="name + ' is not found'" decoding="async" loading="lazy"/>

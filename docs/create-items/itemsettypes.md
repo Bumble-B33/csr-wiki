@@ -55,8 +55,8 @@ Available Generators are:
 |--------------------------|----------------------------------------------------------------------------------------------------|
 | `csr:default`            | Selects the specified number of items randomly from the tag. Items can be selected multiple times. |
 | `csr:one_of_each`        | Selects up to the specified number of unique items. No duplicates.                                 |
-| `csr:one_of_each_no_tag` | Like `one_of_each, but excluded from the `csr:combined_defaulted` generator.                       |
-| `csr:combined_defaulted  | Selects the given amounts of items from all item types.                                            |
+| `csr:one_of_each_no_tag` | Like `one_of_each`, but excluded from the `csr:combined_defaulted` generator.                      |
+| `csr:combined_defaulted` | Selects the given amounts of items from all item types.                                            |
 
 ## Example
 

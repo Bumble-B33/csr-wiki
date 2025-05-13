@@ -8,12 +8,13 @@
 ## Items
 
 Explore the new unique items introduced.
-* [Clay Soldier Puppet](./items/soldier-puppet.md)
-* [Clay Goggles](./items/clay-goggles.md)
-* [Clay Disruptor](./items/clay-disruptor.md)
-* [Clay Brush](./items/clay-brush.md)
+* [Clay Soldier Dolls](./items/soldier-puppet.md)
 * [Clay Horses](./items/clay-horses.md)
+* [Clay Brush](./items/clay-brush.md)
 * [Clay Cookie](./items/clay-cookie.md)
+* [Clay Goggles](./items/clay-goggles.md)
+* [Clay Pouch](./items/clay-pouch.md)
+* [Clay Disruptor](./items/clay-disruptor.md)
 * [Hamster Wheel](./items/hamster-wheel.md)
 
 ## Commands

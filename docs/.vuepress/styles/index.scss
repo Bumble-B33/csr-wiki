@@ -22,6 +22,17 @@
 #main-title {
   color: var(--vp-c-bg);
 }
+
+@media (max-width: 600px) {
+  #main-title {
+    display: none !important;
+  }
+  .vp-hero-image {
+    padding-bottom: 0;
+  }
+}
+
+
 .git-info {
   display: none;
 }

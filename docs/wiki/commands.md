@@ -36,7 +36,7 @@ Spawns 12 of the same basic items.
 |------------------|---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `csr:basic`      | Basic Items                     | Stick, Sharpened Stick, Bone, Blaze Rod, Shears, Snowball, Gravel, Bowl                                                                                     |
 | `csr:ranged`     | Ranged Weapons                  | Snowball, Fire Charge, Slime Ball, Gravel                                                                                                                   |
-| csr:tank`       | Items for tanky soldiers        | Nether Star, Brick, Cactus, Bowl                                                                                                                            |
+| `csr:tank`       | Items for tanky soldiers        | Nether Star, Brick, Cactus, Bowl                                                                                                                            |
 | `csr:armored`    | Armor Items                     | Lily Pad, Red Mushroom, Leather, Glass Pane, Paper, Brick, Turtle Scute, Cactus, String                                                                     |
 | `csr:specialist` | Special effect tools            | Slime Ball, Glass Bottle, Sugar, Emerald, Redstone, Firework Rocket, Red Mushroom, Glass Pane, String, Feather, Rabbit Hide                                 |
 | `csr:supportive` | Healing/Support items           | Golden Apple, Totem of Undying, Glistering Melon Slice                                                                                                      |
@@ -57,7 +57,7 @@ This command allows you to manually assign team colors to either spawned entitie
 ```
 Parameters
 
-- `<targets>|item` - A selector or list of entities
+- `<targets>` - A selector or list of entities
 - `item` - Targets the item in your main hand or offhand. Must be a Clay Soldier Doll.
 - `<team>` - The ID of the team you want to assign
 

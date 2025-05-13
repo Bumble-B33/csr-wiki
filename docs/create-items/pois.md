@@ -70,11 +70,11 @@ We would put this under the item directory.
   ],
   "predicate": {
     "type": "csr:logic",
-    "predicate": {
+    "test": {
       "operation": "not",
       "predicate": {
       "type": "csr:has_effect",
-      "predicate": {
+      "test": {
         "effect": "minecraft:conduit_power"
       }
     }
@@ -116,7 +116,7 @@ so we can set the predicate to Always True
   ],
     "predicate": {
       "type": "csr:always_true",
-      "predicate": {}
+      "test": {}
     }
 }
 ```

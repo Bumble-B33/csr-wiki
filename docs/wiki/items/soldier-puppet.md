@@ -1,6 +1,6 @@
-# Clay Soldier Puppet
+# Clay Soldier Dolls
 
-Clay Soldier Puppets can be placed down to spawn Clay Soldiers.
+Clay Soldier Dolls can be placed down to spawn Clay Soldiers.
 If you have multiple Soldiers in one Hand they all will be placed down instantly.
 Sneeking disables this behaviour.
 

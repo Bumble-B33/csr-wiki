@@ -6,7 +6,7 @@
   </template>
   <template v-slot:info>
     Can be given to a Soldier to heal them fully. 
-    When given to King/Queen Soldier, you will gain their teams loyalty.
+    When given to King/Queen Soldier, the player will gain their teams loyalty.
   </template>
 </ImgInfo>
 
