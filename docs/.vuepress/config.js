@@ -16,7 +16,7 @@ export default defineUserConfig({
                 children: [
                     {
                         text: '26.1.2',
-                        link: 'https://github.com/Bumble-B33/csr-wiki-v2'}
+                        link: 'https://bumble-b33.github.io/csr-wiki-v2/'}
                 ],
             },
             '/',

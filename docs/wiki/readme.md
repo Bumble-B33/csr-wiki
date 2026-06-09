@@ -5,6 +5,10 @@
 * [Mounts](mounts.md)
 * [Let them do the Work](work.md)
 
+## Soldier Items
+
+* [Clay Soldier Items](default-items.md) - an overview of all Items Soldier can hold or wear.
+
 ## Items
 
 Explore the new unique items introduced.
@@ -32,8 +36,3 @@ Explore the new unique items introduced.
 * [Gamerule](./config.md#game-rules)
 * [Config File](./config.md#configuration-settings)
 * [Blueprint Datapack](./config.md#blueprint-datapack)
-
-
-## Soldier Items
-
-* [Clay Soldier Items](default-items.md) - an overview of all Items Soldier can hold or wear.
