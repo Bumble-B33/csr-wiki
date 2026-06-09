@@ -97,6 +97,7 @@ itemList.set("glass", {img: "/minecraft/blocks/glass"});
 itemList.set("gold_block", {img: "/minecraft/blocks/gold_block"});
 itemList.set("gravel", {img: "/minecraft/blocks/gravel"});
 itemList.set("skeleton_skull", {img: "/minecraft/blocks/skeleton_skull", rarity: "#FFFF55"});
+itemList.set("slime_block", {img: "/minecraft/blocks/slime_block"})
 itemList.set("stone", {img: "/minecraft/blocks/stone"});
 itemList.set("terracotta", {img: "/minecraft/blocks/terracotta"});
 itemList.set("tnt", {img: "/minecraft/blocks/tnt"});
@@ -150,11 +151,15 @@ itemList.set("clay_cookie", {img: "/items/clay_cookie"});
 itemList.set("clay_goggles", {img: "/items/clay_goggles", armor: 1});
 itemList.set("clay_disruptor", {img: "/items/clay_disruptor"});
 itemList.set("terracotta_disruptor", {img: "/items/terracotta_disruptor"});
+itemList.set("slime_boots", {img: "/items/slime_boots", armor: 2});
+
 
 itemList.set("shear_blade", {img: "/items/shear_blade", damage: 5, att_speed: 1.6});
 itemList.set("sharpened_stick", {img: "/items/sharpened_stick", damage: 4, att_speed: 1.6});
 
 itemList.set("clay_pouch", {img: "/items/clay_pouch", rarity: "#FFFF55"});
+itemList.set("clay_staff", {img: "/items/clay_staff", rarity: "#55FFFF"});
+
 
 itemList.set("cake_horse", {img: "/mounts/cake_horse"});
 itemList.set("grass_horse", {img: "/mounts/grass_horse"});

@@ -11,7 +11,7 @@
 
 ## Obtaining
 
-::: details Recipies
+::: details Recipes
 <recipe-crafting slot_2="leather" slot_4="glass_pane"
 slot_5="copper_ingot" slot_6="glass_pane"
 result="clay_goggles"/>

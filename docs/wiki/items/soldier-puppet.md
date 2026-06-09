@@ -6,7 +6,7 @@ Sneeking disables this behaviour.
 
 ## Obtaining
 
-::: details Recipies
+::: details Recipes
 <recipe-crafting
 slot_2 = "clay_ball"
 slot_5 = "soul_sand"
@@ -29,7 +29,7 @@ result="clay_soldier" amount="4"/>
 
 ## Reviving
 
-::: details Recipies
+::: details Recipes
 <recipe-crafting slot_4="bricked_clay_soldier" slot_5="ghast_tear"
 result="clay_soldier"/>
 <hr class="recipe-divider">

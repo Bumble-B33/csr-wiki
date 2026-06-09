@@ -24,7 +24,7 @@ By using a Redstone on the Wheel it gains the Ability to generate power.
 
 ## Obtaining
 
-::: details Recipies
+::: details Recipes
 <recipe-crafting
 slot_2="copper_ingot"
 slot_4="copper_ingot" slot_5="stick" slot_6="copper_ingot"

@@ -13,7 +13,7 @@
 
 ## Obtaining
 
-::: details Recipies
+::: details Recipes
 <recipe-crafting
 slot_4="clay_ball" slot_5="ghast_tear" slot_6="clay_ball"
 result="clay_cookie"/>

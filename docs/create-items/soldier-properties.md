@@ -155,6 +155,15 @@ There is no default value as this property is active when present otherwise not.
 "teleportation": true
 ```
 
+## Bounce
+
+Allows the Soldier to bounce of the ground.
+The key is `"bounce"` and the value can be any `true` or `{}`.
+There is no default value as this property is active when present otherwise not.
+```json:no-line-numbers
+"bounce": true
+```
+
 ## Evacuation Property
 
 The evacuation property allows the soldier to escape from any danger in a stylish fashion.
@@ -453,3 +462,11 @@ The key is `"wraith"`. The Value consist of a duration, an optional field of dam
 ::: important
 Only `Melee` and `Melee and Ranged` special attacks will be used.
 :::
+
+## Breaking Power
+
+Set the Block breaking power of the Soldier. The key is `"breaking_power"` and the value can be any whole number.
+The default value is `0`.
+```json:no-line-numbers
+"breaking_power": 1
+```

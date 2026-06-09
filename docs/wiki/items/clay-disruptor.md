@@ -21,14 +21,14 @@
 
 ## Obtaining
 
-::: details Recipies
+::: details Recipes
 <recipe-crafting
 slot_1="clay" slot_2="stick" slot_3="clay"
 slot_4="clay" slot_5="redstone" slot_6="clay"
 result="clay_disruptor"/>
 :::
 
-::: details Recipies
+::: details Recipes
 <recipe-crafting
 slot_1="terracotta" slot_2="redstone" slot_3="terracotta"
 slot_4="terracotta" slot_5="clay_disruptor" slot_6="terracotta"
