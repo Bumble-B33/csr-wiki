@@ -39,7 +39,7 @@ Learn more about Soldier Jobs [here](../work.md)
 
 ## Obtaining
 
-::: details Recipies
+::: details Recipes
 <recipe-crafting
 slot_2="clay_ball" slot_5="copper_ingot" slot_8="stick"
 result="clay_brush_command"/>

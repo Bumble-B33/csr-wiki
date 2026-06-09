@@ -11,6 +11,14 @@ export default defineUserConfig({
     theme: defaultTheme({
         logo: '/images/logo/clay_soldiers_logo.png',
         navbar: [
+            {
+                text: '1.21.1',
+                children: [
+                    {
+                        text: '26.1.2',
+                        link: 'https://github.com/Bumble-B33/csr-wiki-v2'}
+                ],
+            },
             '/',
             {
                 text: 'Content',
@@ -63,7 +71,9 @@ export default defineUserConfig({
                         'clay-brush.md',
                         'clay-cookie.md',
                         'clay-goggles.md',
+                        'slime-boots.md',
                         'clay-pouch.md',
+                        'clay-staff.md',
                         'clay-disruptor',
                         'hamster-wheel.md'
                     ],

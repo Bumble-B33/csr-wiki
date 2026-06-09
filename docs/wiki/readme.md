@@ -13,7 +13,10 @@ Explore the new unique items introduced.
 * [Clay Brush](./items/clay-brush.md)
 * [Clay Cookie](./items/clay-cookie.md)
 * [Clay Goggles](./items/clay-goggles.md)
+* [Slime Boots](./items/slime-boots.md)
 * [Clay Pouch](./items/clay-pouch.md)
+* [Clay Staff](./items/clay-staff.md)
+
 * [Clay Disruptor](./items/clay-disruptor.md)
 * [Hamster Wheel](./items/hamster-wheel.md)
 
